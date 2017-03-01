@@ -89,7 +89,10 @@ function addUser(event) {
             'fullname': $('#addUser fieldset input#inputUserFullname').val(),
             'age': $('#addUser fieldset input#inputUserAge').val(),
             'location': $('#addUser fieldset input#inputUserLocation').val(),
-            'gender': $('#addUser fieldset input#inputUserGender').val()
+            'gender': $('#addUser fieldset input#inputUserGender').val(),
+            'title':$('#addUser fieldset input#inputTitle').val(),
+            'pic':$('#addUser fieldset input#inputpic').val(),
+            'summary':$('#addUser fieldset input#inputsummay').val()
         }
 
         // Use AJAX to post the object to our adduser service
